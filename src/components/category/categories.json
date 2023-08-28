@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_category_categories",
+  "info": {
+    "displayName": "categories",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    },
+    "categoryDocs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "doc.doc"
+    },
+    "subCategory": {
+      "displayName": "subCategory",
+      "type": "component",
+      "repeatable": true,
+      "component": "category.sub-category"
+    }
+  }
+}

@@ -12,20 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "release_title": {
+    "title": {
       "type": "string"
+    },
+    "category": {
+      "type": "dynamiczone",
+      "components": [
+        "category.categories"
+      ]
     },
     "product": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product.product",
       "inversedBy": "releases"
-    },
-    "content": {
-      "type": "json"
-    },
-    "details": {
-      "type": "richtext"
     }
   }
 }
