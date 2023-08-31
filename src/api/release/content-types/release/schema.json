@@ -26,6 +26,11 @@
       "relation": "manyToOne",
       "target": "api::product.product",
       "inversedBy": "releases"
+    },
+    "document": {
+      "type": "component",
+      "repeatable": true,
+      "component": "doc.doc"
     }
   }
 }
