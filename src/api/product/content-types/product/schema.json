@@ -23,6 +23,13 @@
       "relation": "oneToMany",
       "target": "api::release.release",
       "mappedBy": "product"
+    },
+    "overview": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
